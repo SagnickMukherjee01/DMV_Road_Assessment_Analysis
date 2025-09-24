@@ -27,3 +27,7 @@ This project analyzes a simulated DMV road test dataset to uncover the key facto
 - ### DADV-2-Capstone Project-Group D-Dataset Drivers License Data:-
   Contains data on applicant’s demographics (age , gender and    race), training participation and road assessment indicators.
 
+### Tools Used
+
+ - Excel- Feature Engineering, Exploratory Data Analysis, Statistical Analysis and Data Visualization
+

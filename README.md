@@ -1,7 +1,22 @@
 # DMV_Road_Assessment_Analysis
 
 ### Table of Contents
-   - 
+ 
+ - [Project Overview](#project-overview)
+ - [Key Objectives](#key-objectives)
+ - [Key Performance Indicators](#key-performance-indicators)
+ - [Overview of Dataset Structure](#overview-of-dataset-structure)
+ - [Tools Used](#tools-used)
+ - [Data Cleaning](#data-cleaning)
+ - [Feature Engineering](#feature-engineering)
+ - [Exploratory Data Analysis](#exploratory-data-analysis)
+ - [Statistical Analysis](#statistical-analysis)
+ - [Logistic Regression Predicting Road Test Success](#logistic-regression-predicting-road-test-success)
+ - [Failure Reasons](#failure-reasons)
+ - [Data Analysis and Visualization](#data-analysis-and-visualization)
+ - [Key Findings](#key-findings)
+ - [Recommendations](#recommendations)
+ - [Limitations](#limitations)
 
 ### Project Overview
 ---
@@ -56,7 +71,7 @@ This project analyzes a simulated DMV road test dataset to uncover the key facto
 ### Feature Engineering
 ---
 
-  1. The Age column was derived from the Age Group column using Generative AI tools. Applicants in the Teenager group were assigned ages 16–19, Young Adults were assigned ages 20–29, and       Middle Age applicants were assigned ages 30–50.
+  1. The Age column was derived from the Age Group column using Generative AI tools. Applicants in the Teenager group were assigned ages 16–19, Young Adults were assigned ages 20–29,         and Middle Age applicants were assigned ages 30–50.
   2. For logistic regression, categorical variables were encoded into numeric format. The Gender column was converted to binary, with Male = 1 and Female = 0. From the Training_Type           column, two dummy variables were created: Training_Advanced (Advanced = 1, Basic/None = 0) and Training_Basic (Basic = 1, Advanced/None = 0).
 
 ### Exploratory Data Analysis
@@ -108,7 +123,7 @@ EDA involved exploring the DMV road assessment data to answer key questions, suc
 
    ![Capture](https://github.com/user-attachments/assets/619761d9-5e9d-45fe-9d30-524f8c2eb714)
 
-### Logistic Regression – Predicting Road Test Success
+### Logistic Regression Predicting Road Test Success
 ---
 
 1. Logistic regression model built to predict Pass/ Fail outcome.
@@ -168,7 +183,7 @@ EDA involved exploring the DMV road assessment data to answer key questions, suc
 
     ![Capture](https://github.com/user-attachments/assets/e840ab37-91b0-4253-bfc4-4ebb96bec705)
 
-### 📊 Key Findings
+### Key Findings
 ---
 
  #### 1. Training Impact: Applicants with Advanced training achieved the highest pass rate (88.16%). Those with Basic training had more candidates under slower reaction types.
